@@ -1,5 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
+using System.Buffers.Binary;
 using System.Diagnostics;
 
 namespace IsometricRTS
@@ -21,8 +22,8 @@ namespace IsometricRTS
             float zoomFactor = Globals.Camera.zoom; // Assuming Zoom is a float value indicating the zoom level
 
             // Adjusted position considering zoom
-            float adjustedX = body.position.X - body.texture.Width / 2 - Globals.Camera.position.X + Globals.Camera.viewport.Width / 2;
-            float adjustedY = body.position.Y - body.texture.Height - Globals.Camera.position.Y + Globals.Camera.viewport.Height / 2;
+            float adjustedX = body.position.X - body.texture.Width / 2 - Globals.Camera.position.X + Globals.Camera.viewport.Width / 2 - body.texture.Width/4;
+            float adjustedY = body.position.Y - body.texture.Height - Globals.Camera.position.Y + Globals.Camera.viewport.Height / 2 - body.texture.Height/2;
 
             // Create a Rectangle representing the bounds of the object's texture
             Rectangle textureBounds = new Rectangle((int)adjustedX, (int)adjustedY, (int)(body.texture.Width*Globals.GameScale), (int)(body.texture.Height * Globals.GameScale));
@@ -36,6 +37,10 @@ namespace IsometricRTS
             return false;
         }
 
+        public Vector2 GetCursorPos() 
+        {
+            return new Vector2(Globals.InputManager.MousePosition.X - Globals.Camera.viewport.Width / 2, Globals.InputManager.MousePosition.Y - Globals.Camera.viewport.Height / 2);
+        }
         public bool IsRightMouseClick()
         {
             var mouseState = Mouse.GetState();
@@ -43,6 +48,16 @@ namespace IsometricRTS
             _lastMouseState = mouseState;
             return isClick;
         }
+
+        public bool IsLeftMouseClick()
+        {
+            var mouseState = Mouse.GetState();
+            bool isClick = mouseState.LeftButton == ButtonState.Pressed;
+            _lastMouseState = mouseState;
+            return isClick;
+        }
+
+
         public void Update()
         {
             _lastMouseState = Mouse.GetState();

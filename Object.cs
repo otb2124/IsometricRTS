@@ -8,11 +8,18 @@ namespace IsometricRTS
     public class Object : Entity
     {
 
-        public bool LightsUp = false;
+
+        public bool GlowUpWhenHoverOn = false;
+
+
+        private bool IsGlownUp = false;
+        private bool ItemBoxShown = false;
+        private bool SubMenuOn = false;
+
 
         public Object(Vector2 startPosition, bool HasCollision, int TextureId) : base(startPosition, Int32.Parse(TextureId.ToString().Substring(0, 1)), Int32.Parse(TextureId.ToString().Substring(1, 1)))
         {
-            
+
             if (HasCollision)
             {
                 Globals.currentMap._tiles[(int)startPosition.X, (int)startPosition.Y].HasCollision = true;
@@ -24,21 +31,49 @@ namespace IsometricRTS
         public override void Update()
         {
 
-            if (Globals.InputManager.HoversOn(body))
+
+            if (Globals.InputManager.HoversOn(body)) //onhover
             {
-                LightsUp = true;
 
-                // Calculate the position to center the ItemWindow relative to the body texture
-                float windowPosX = body.position.X - (body.texture.Width * Globals.GameScale); // X position
-                float windowPosY = body.position.Y - (body.texture.Height * Globals.GameScale); // Y position
-
-                Globals.UIManager.DrawItemWindow(name);
-            }
-            else
+                if (GlowUpWhenHoverOn)
                 {
-                    LightsUp = false;
-                    Globals.UIManager.ClearItemWindow();
+                    IsGlownUp = true;
+                }
+
+                if (!SubMenuOn)
+                {
+                    Globals.UIManager.DrawItemWindow(name, new Vector2(0, 0), true);
+                }
+                ItemBoxShown = true;
+
+
+
+                if (Globals.InputManager.IsLeftMouseClick()) //left click
+                {
+                    Globals.UIManager.DrawItemWindow(name, new Vector2(0, 0), false);
+                    Globals.UIManager.DrawItemWindow(name, new Vector2(50, 0), false);
+                    Globals.UIManager.DrawItemWindow(name, new Vector2(0, 200), false);
+                    Globals.UIManager.DrawItemWindow("dick", new Vector2(100, 0), false);
+                    SubMenuOn = true;
+                }
             }
+            else  //unhover
+            {
+                if (IsGlownUp)
+                {
+                    IsGlownUp = false;
+                }
+
+                if (ItemBoxShown)
+                {
+                    Globals.UIManager.ClearAllCompositesOfTypes(UIComposite.UICompositeType.ITEMWINDOW);
+                    ItemBoxShown = false;
+                    SubMenuOn = false;
+                }
+                
+            }
+
+
 
         }
         public override void Draw()
@@ -49,16 +84,16 @@ namespace IsometricRTS
             StrokeType strokeType = StrokeType.OutlineAndTexture;
 
 
-            // Create stroke texture only if LightsUp is true
+            // Create stroke texture only if IsGlownUp is true
             Texture2D textureToDraw = body.texture;
-            if (LightsUp)
+            if (IsGlownUp)
             {
                 textureToDraw = StrokeEffect.CreateStroke(body.texture, strokeSize, strokeColor, Globals.GraphicsDeviceManager.GraphicsDevice, strokeType);
             }
 
-            drawposition = new Vector2(body.position.X - body.texture.Width + (Globals.currentMap.TILE_SIZE.X/Globals.GameScale), body.position.Y - body.texture.Height + (Globals.currentMap.TILE_SIZE.Y / Globals.GameScale)*2 - body.texture.Height);
+            drawposition = new Vector2(body.position.X - body.texture.Width + (Globals.currentMap.TILE_SIZE.X / Globals.GameScale), body.position.Y - body.texture.Height + (Globals.currentMap.TILE_SIZE.Y / Globals.GameScale) * 2 - body.texture.Height);
 
-            
+
 
             // Draw the texture (with or without stroke)
             Vector2 scale = new Vector2(Globals.GameScale, Globals.GameScale);
@@ -66,7 +101,7 @@ namespace IsometricRTS
 
 
 
-            if(Globals.gameMode == Globals.GameMode.debugmode)
+            if (Globals.gameMode == Globals.GameMode.debugmode)
             {
                 Texture2D whiteRectangle = new Texture2D(Globals.GraphicsDeviceManager.GraphicsDevice, body.texture.Width, body.texture.Height);
                 Color[] data = new Color[body.texture.Width * body.texture.Height];
@@ -75,7 +110,7 @@ namespace IsometricRTS
 
                 Globals.SpriteBatch.Draw(whiteRectangle, drawposition, null, Color.White, 0f, Vector2.Zero, scale, SpriteEffects.None, 0f);
             }
-            
+
         }
     }
 }

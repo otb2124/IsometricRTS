@@ -10,7 +10,7 @@ namespace IsometricRTS
         {
             MAP_POINTER,
             MOUSE_CURSOR,
-            ITEMWINDOW,
+            ITEMWINDOW_FRAME_PART,
             TEXT_LABEL,
         }
 
@@ -20,8 +20,11 @@ namespace IsometricRTS
         public Vector2 scale;
         public Vector2 origin;
         public Texture2D texture;
+
+
         public bool StickToCamera;
         public bool StickToZoom;
+        public bool StickToCursor;
         public bool HalfedOrigin;
         public bool UnderDrawn = false;
         public int flip = -1;
@@ -39,6 +42,7 @@ namespace IsometricRTS
             this.texture = texture;
             this.StickToCamera = false;
             this.StickToZoom = false;
+            this.StickToCursor = false;
             this.HalfedOrigin = false;
             this.type = type;
         }
@@ -49,7 +53,12 @@ namespace IsometricRTS
 
             if (StickToCamera)
             {
-                adjustedPosition = position + Globals.Camera.position;
+                adjustedPosition += Globals.Camera.position;
+            }
+
+            if (StickToCursor)
+            {
+                adjustedPosition += Globals.InputManager.GetCursorPos();
             }
 
             Vector2 adjustedScale = scale;

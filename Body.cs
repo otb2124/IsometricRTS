@@ -21,7 +21,7 @@ namespace IsometricRTS
         {
             try
             {
-                Globals.UIManager.ClearAllMapPointers();
+                Globals.UIManager.ClearAllElementsOfTypes(UIElement.UIElementType.MAP_POINTER);
                 this.path = new Queue<Point>(path);
                 this.tileSize = tileSize;
                 this.map = map;
@@ -54,7 +54,7 @@ namespace IsometricRTS
             }
             else if(path != null && path.Count == 0)
             {
-                Globals.UIManager.ClearAllMapPointers();
+                Globals.UIManager.ClearAllElementsOfTypes(UIElement.UIElementType.MAP_POINTER);
             }
 
         }

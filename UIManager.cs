@@ -1,5 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
+using SharpDX.Direct2D1.Effects;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
 
 
 namespace IsometricRTS
@@ -8,104 +11,36 @@ namespace IsometricRTS
     {
 
         public List<UIElement> elements;
-        
+        public List<UIComposite> composites;
 
-        public UIManager() 
+        public UIManager()
         {
             elements = new List<UIElement>();
-
+            composites = new List<UIComposite>();
             DrawCursor();
         }
 
 
 
-        public void DrawItemWindow(string text)
+        public void DrawItemWindow(string text, Vector2 position, bool StickToCursor)
         {
-
-            Vector2 position = new Vector2(0, 0);
-
-            for (int i = 0; i < elements.Count; i++)
-            {
-                if (elements[i].type == UIElement.UIElementType.MOUSE_CURSOR)
-                {
-                    position.X = elements[i].position.X + elements[i].texture.Width * Globals.GameScale + Globals.Camera.position.X;
-                    position.Y = elements[i].position.Y + elements[i].texture.Height*Globals.GameScale + Globals.Camera.position.Y;
-                    break;
-                }
-            }
-
-           
-
-            int fontID = 4;
-            Vector2 textSize = Globals.AssetSetter.fonts[fontID].MeasureString(text);
-            Vector2 padding = new Vector2(textSize.X + 32, textSize.Y);
-            int rescale = 2;
-            padding /= rescale;
-            // Calculate scaling factors
-            float singleCharacterWidth = textSize.X / text.Length;
-            float horizontalScale = singleCharacterWidth / Globals.AssetSetter.textures[3][2][1].Width * text.Length;
-            float verticalScale = textSize.Y;
-
-            // Create and position the UI elements with scaling
-
-            float centredX = position.X - padding.X + Globals.AssetSetter.textures[3][2][0].Width;
-
-            UIElement topCenter = new UIElement(new Vector2(centredX, position.Y), Globals.AssetSetter.textures[3][2][1], UIElement.UIElementType.ITEMWINDOW);
-            topCenter.scale.X *= horizontalScale;
-            UIElement bottomCenter = new UIElement(new Vector2(centredX, position.Y + padding.Y), Globals.AssetSetter.textures[3][2][1], UIElement.UIElementType.ITEMWINDOW);
-            bottomCenter.scale.X *= horizontalScale;
-            bottomCenter.flip = 1;
-
-            UIElement leftTopCorner = new UIElement(new Vector2(position.X - padding.X, position.Y), Globals.AssetSetter.textures[3][2][0], UIElement.UIElementType.ITEMWINDOW);
-            leftTopCorner.flip = -1;
-
-            UIElement leftBottomCorner = new UIElement(new Vector2(position.X - padding.X, position.Y + padding.Y), Globals.AssetSetter.textures[3][2][0], UIElement.UIElementType.ITEMWINDOW);
-            leftBottomCorner.flip = 1;
-
-            UIElement rightTopCorner = new UIElement(new Vector2(position.X + padding.X, position.Y), Globals.AssetSetter.textures[3][2][0], UIElement.UIElementType.ITEMWINDOW);
-            rightTopCorner.flip = 0;
-
-            UIElement rightBottomCorner = new UIElement(new Vector2(position.X + padding.X, position.Y + padding.Y), Globals.AssetSetter.textures[3][2][0], UIElement.UIElementType.ITEMWINDOW);
-            rightBottomCorner.flip = 2;
-
-            topCenter.scale /= rescale;
-            bottomCenter.scale /= rescale;
-            elements.Add(topCenter);
-            elements.Add(bottomCenter);
-            // Add UI elements to the list
-            leftTopCorner.scale /= rescale;
-            leftBottomCorner.scale /= rescale;
-            rightBottomCorner.scale /= rescale;
-            rightTopCorner.scale /= rescale;
-
-            elements.Add(leftTopCorner);
-            elements.Add(leftBottomCorner);
-            elements.Add(rightTopCorner);
-            elements.Add(rightBottomCorner);
-
-            // Text
-            UIElement textElement = new UIElement(new Vector2(position.X - padding.X + Globals.AssetSetter.textures[3][2][0].Width, position.Y + Globals.AssetSetter.textures[3][2][0].Height - textSize.Y), null, UIElement.UIElementType.TEXT_LABEL);
-            textElement.text = text;
-            textElement.fontID = fontID;
-            textElement.scale /= rescale;
-            elements.Add(textElement);
-        }
-
-        public void ClearItemWindow()
-        {
-            elements.RemoveAll(e => e.type == UIElement.UIElementType.ITEMWINDOW || e.type == UIElement.UIElementType.TEXT_LABEL);
+            
+            ClearLastCompositeWithType(UIComposite.UICompositeType.ITEMWINDOW);
+            LabelWindow labelWindow = new LabelWindow(text, position, StickToCursor);
+            composites.Add(labelWindow);
+            elements.AddRange(labelWindow.components);
         }
 
         public void DrawCursor()
         {
-            UIElement cursor = new UIElement(Globals.InputManager.MousePosition.ToVector2(), Globals.AssetSetter.textures[3][1][0], UIElement.UIElementType.MOUSE_CURSOR);
+            UIElement cursor = new UIElement(Globals.InputManager.GetCursorPos(), Globals.AssetSetter.textures[3][1][0], UIElement.UIElementType.MOUSE_CURSOR);
             cursor.StickToCamera = true;
             elements.Add(cursor);
         }
 
         public void DrawMapPointer(Vector2 position, int id)
         {
-            
+
             UIElement pic = new UIElement(position, Globals.AssetSetter.textures[3][0][1], UIElement.UIElementType.MAP_POINTER);
             if (id == 1)
             {
@@ -115,16 +50,69 @@ namespace IsometricRTS
             elements.Add(pic);
         }
 
-        public void ClearAllMapPointers()
+
+
+
+        public void ClearAllCompositesOfTypes(params UIComposite.UICompositeType[] types)
         {
-            for (int i = 0; i < elements.Count; i++)
+            foreach (var type in types)
             {
-                if (elements[i].type == UIElement.UIElementType.MAP_POINTER)
+                foreach (var composite in composites.Where(c => c.type == type).ToList())
                 {
-                    elements.Remove(elements[i]);
+                    ClearComposite(composite);
                 }
             }
-        } 
+        }
+
+        public void ClearLastCompositeWithType(UIComposite.UICompositeType type)
+        {
+
+            for (int i = 0; i < composites.Count; i++)
+            {
+                if (composites[i].type == type)
+                {
+                    ClearComposite(composites[i]);
+                    break;
+                }
+            }
+        }
+
+
+        public void ClearComposite(UIComposite composite)
+        {
+            foreach (var component in composite.components)
+            {
+                if (elements.Contains(component))
+                {
+                    elements.Remove(component);
+                }
+            }
+            composites.Remove(composite);
+        }
+
+        public UIComposite[] GetCompositesByType(UIComposite.UICompositeType type)
+        {
+            return composites.Where(e => e.type == type).ToArray();
+        }
+
+        public void ClearAllElementsOfTypes(params UIElement.UIElementType[] elementTypes)
+        {
+            for (int i = 0; i < elementTypes.Length; i++)
+            {
+                elements.RemoveAll(e => e.type == elementTypes[i]);
+            }
+        }
+
+
+        public bool ContainsElementsOfTypes(params UIElement.UIElementType[] elementTypes)
+        {
+            return elements.Any(e => elementTypes.Contains(e.type));
+        }
+
+        public UIElement[] GetElementSByType(UIElement.UIElementType type)
+        {
+            return elements.Where(e => e.type == type).ToArray();
+        }
 
         public void Update()
         {
@@ -132,9 +120,12 @@ namespace IsometricRTS
             {
                 if (elements[i].type == UIElement.UIElementType.MOUSE_CURSOR)
                 {
-                    elements[i].position = new Vector2((Globals.InputManager.MousePosition.X - Globals.Camera.viewport.Width / 2), (Globals.InputManager.MousePosition.Y - Globals.Camera.viewport.Height / 2));
+                    elements[i].position = Globals.InputManager.GetCursorPos();
                 }
+
             }
+
+            Debug.WriteLine(composites.Count);
         }
 
         public void DrawOver()
