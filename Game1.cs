@@ -1,6 +1,7 @@
 ﻿using IsometricRTS;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
+using System;
 
 
 namespace IsometricRTS
@@ -9,6 +10,7 @@ namespace IsometricRTS
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        Camera camera;
 
         GameManager manager;
 
@@ -18,10 +20,11 @@ namespace IsometricRTS
             Content.RootDirectory = "Content";
             Globals.Content = Content;
             Globals.GraphicsDeviceManager = graphics;
-            IsMouseVisible = true;
+            Globals.GraphicsDeviceManager.GraphicsProfile = GraphicsProfile.HiDef;
 
-
-           
+            graphics.PreferredBackBufferWidth = 1920; // Set to desired width
+            graphics.PreferredBackBufferHeight = 1080; // Set to desired height
+            graphics.ApplyChanges(); // Apply the changes to the graphics device
         }
 
         protected override void LoadContent()
@@ -29,6 +32,8 @@ namespace IsometricRTS
             spriteBatch = new SpriteBatch(GraphicsDevice);
             Globals.SpriteBatch = spriteBatch;
 
+            camera = new Camera(GraphicsDevice.Viewport);
+            Globals.Camera = camera;
 
             manager = new GameManager();
             manager.init();
@@ -43,13 +48,16 @@ namespace IsometricRTS
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.White);
+            
 
-            Globals.SpriteBatch.Begin();
+            Globals.SpriteBatch.Begin(transformMatrix: camera.Transform);
+            
             manager.Draw();
+            GraphicsDevice.Clear(Color.White);
             Globals.SpriteBatch.End();
 
             base.Draw(gameTime);
+            
         }
     }
 }

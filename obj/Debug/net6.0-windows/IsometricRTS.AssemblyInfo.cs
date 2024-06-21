@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IsometricRTS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7db2a6d3b91918428e422a3a72d1bb3534eadbf6")]
 [assembly: System.Reflection.AssemblyProductAttribute("IsometricRTS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IsometricRTS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
