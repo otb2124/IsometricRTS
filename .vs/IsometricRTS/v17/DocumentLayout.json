@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\uielement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:uielement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\uicomposite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,52 +23,60 @@
       "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:labelwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\uielement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:uielement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\isometricrts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:isometricrts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\assetsetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:assetsetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\astarpathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:astarpathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\icon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:icon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\assetsetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:assetsetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\isometricrts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:isometricrts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\icon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:icon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\stroke\\strokeeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\content\\strokeeffect.fx||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:content\\strokeeffect.fx||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\stroke\\strokeeffectspritefont.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,10 +106,6 @@
       "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:content\\rebuildeffects.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\astarpathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:astarpathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|c:\\users\\orest\\downloads\\pojects\\isometricrts\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A95D2E6-5C8F-4D76-A0B5-BBADF13EAA9C}|IsometricRTS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -117,45 +117,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Globals.cs",
-              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Globals.cs",
-              "RelativeDocumentMoniker": "Globals.cs",
-              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Globals.cs",
-              "RelativeToolTip": "Globals.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAIAwwBMAAAAfAAAA",
+              "DocumentIndex": 10,
+              "Title": "Tile.cs",
+              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Tile.cs",
+              "RelativeDocumentMoniker": "Tile.cs",
+              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Tile.cs",
+              "RelativeToolTip": "Tile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T09:50:00.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T11:17:35.218Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\GameManager.cs",
-              "RelativeDocumentMoniker": "GameManager.cs",
-              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\GameManager.cs",
-              "RelativeToolTip": "GameManager.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAQwFsAAAAAAAAA",
+              "Title": "Body.cs",
+              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Body.cs",
+              "RelativeDocumentMoniker": "Body.cs",
+              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Body.cs",
+              "RelativeToolTip": "Body.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T10:00:47.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AssetSetter.cs",
-              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\AssetSetter.cs",
-              "RelativeDocumentMoniker": "AssetSetter.cs",
-              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\AssetSetter.cs",
-              "RelativeToolTip": "AssetSetter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T08:45:24.882Z"
+              "WhenOpened": "2024-06-14T20:53:11.947Z"
             },
             {
               "$type": "Document",
@@ -165,48 +151,22 @@
               "RelativeDocumentMoniker": "UIManager.cs",
               "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\UIManager.cs",
               "RelativeToolTip": "UIManager.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAASwBkAAAAJAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T13:36:32.294Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "UIElement.cs",
               "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\UIElement.cs",
               "RelativeDocumentMoniker": "UIElement.cs",
               "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\UIElement.cs",
               "RelativeToolTip": "UIElement.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAgwDwAAAAjAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAgwBAAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T13:37:16.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Object.cs",
-              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Object.cs",
-              "RelativeDocumentMoniker": "Object.cs",
-              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Object.cs",
-              "RelativeToolTip": "Object.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAswCoAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T09:33:38.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Camera.cs",
-              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Camera.cs",
-              "RelativeDocumentMoniker": "Camera.cs",
-              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Camera.cs",
-              "RelativeToolTip": "Camera.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T19:49:39.19Z",
               "EditorCaption": ""
             },
             {
@@ -217,7 +177,7 @@
               "RelativeDocumentMoniker": "UIComposite.cs",
               "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\UIComposite.cs",
               "RelativeToolTip": "UIComposite.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-21T20:36:57.218Z",
               "EditorCaption": ""
@@ -230,48 +190,45 @@
               "RelativeDocumentMoniker": "LabelWindow.cs",
               "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\LabelWindow.cs",
               "RelativeToolTip": "LabelWindow.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAQwF4AAAA0AAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAawBwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T20:31:17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T20:31:17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Map.cs",
-              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Map.cs",
-              "RelativeDocumentMoniker": "Map.cs",
-              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Map.cs",
-              "RelativeToolTip": "Map.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAwwEIAAAAZAAAA",
+              "DocumentIndex": 6,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\GameManager.cs",
+              "RelativeDocumentMoniker": "GameManager.cs",
+              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\GameManager.cs",
+              "RelativeToolTip": "GameManager.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAcwDUAAABzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T11:20:46.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T10:00:47.775Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IsometricRTS.csproj",
-              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\IsometricRTS.csproj",
-              "RelativeDocumentMoniker": "IsometricRTS.csproj",
-              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\IsometricRTS.csproj",
-              "RelativeToolTip": "IsometricRTS.csproj",
-              "ViewState": "AQIAAJoAAAAAAAAAAAAAAJ8AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-20T09:40:04.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "InputManager.cs",
               "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\InputManager.cs",
               "RelativeDocumentMoniker": "InputManager.cs",
               "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\InputManager.cs",
               "RelativeToolTip": "InputManager.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAgwCYAAAAAAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwCoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T09:52:20.448Z",
+              "WhenOpened": "2024-06-13T09:52:20.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Globals.cs",
+              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Globals.cs",
+              "RelativeDocumentMoniker": "Globals.cs",
+              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Globals.cs",
+              "RelativeToolTip": "Globals.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAIAwwDwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:50:00.26Z",
               "EditorCaption": ""
             },
             {
@@ -284,21 +241,55 @@
               "RelativeToolTip": "Player.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T14:40:38.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T14:40:38.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Body.cs",
-              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Body.cs",
-              "RelativeDocumentMoniker": "Body.cs",
-              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Body.cs",
-              "RelativeToolTip": "Body.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAowDUAAAANAAAA",
+              "DocumentIndex": 12,
+              "Title": "Object.cs",
+              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Object.cs",
+              "RelativeDocumentMoniker": "Object.cs",
+              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Object.cs",
+              "RelativeToolTip": "Object.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAADwvyoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T20:53:11.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T09:33:38.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AStarPathfinding.cs",
+              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\AStarPathfinding.cs",
+              "RelativeDocumentMoniker": "AStarPathfinding.cs",
+              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\AStarPathfinding.cs",
+              "RelativeToolTip": "AStarPathfinding.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T21:10:30.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Game1.cs",
+              "RelativeDocumentMoniker": "Game1.cs",
+              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Game1.cs",
+              "RelativeToolTip": "Game1.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAuwDYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:47:57.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Map.cs",
+              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Map.cs",
+              "RelativeDocumentMoniker": "Map.cs",
+              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Map.cs",
+              "RelativeToolTip": "Map.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAADwvz0AAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T11:20:46.173Z"
             },
             {
               "$type": "Document",
@@ -308,13 +299,49 @@
               "RelativeDocumentMoniker": "Entity.cs",
               "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Entity.cs",
               "RelativeToolTip": "Entity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-14T20:54:24.131Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Camera.cs",
+              "RelativeDocumentMoniker": "Camera.cs",
+              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Camera.cs",
+              "RelativeToolTip": "Camera.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T19:49:39.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AssetSetter.cs",
+              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\AssetSetter.cs",
+              "RelativeDocumentMoniker": "AssetSetter.cs",
+              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\AssetSetter.cs",
+              "RelativeToolTip": "AssetSetter.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwv0UAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:45:24.882Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "IsometricRTS.csproj",
+              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\IsometricRTS.csproj",
+              "RelativeDocumentMoniker": "IsometricRTS.csproj",
+              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\IsometricRTS.csproj",
+              "RelativeToolTip": "IsometricRTS.csproj",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAAAJ8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-20T09:40:04.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "StrokeEffect.cs",
               "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Stroke\\StrokeEffect.cs",
               "RelativeDocumentMoniker": "Stroke\\StrokeEffect.cs",
@@ -326,19 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Game1.cs",
-              "RelativeDocumentMoniker": "Game1.cs",
-              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Game1.cs",
-              "RelativeToolTip": "Game1.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwDcAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T09:47:57.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "StrokeEffect.fx",
               "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Content\\StrokeEffect.fx",
               "RelativeDocumentMoniker": "Content\\StrokeEffect.fx",
@@ -350,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Icon.ico - Icon [256x256, 32 bit, PNG]",
               "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Icon.ico",
               "RelativeDocumentMoniker": "Icon.ico",
@@ -362,19 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Tile.cs",
-              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Tile.cs",
-              "RelativeDocumentMoniker": "Tile.cs",
-              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Tile.cs",
-              "RelativeToolTip": "Tile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T11:17:35.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "RebuildEffects.bat",
               "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Content\\RebuildEffects.bat",
               "RelativeDocumentMoniker": "Content\\RebuildEffects.bat",
@@ -386,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -398,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "StrokeEffectSpriteFont.cs",
               "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Stroke\\StrokeEffectSpriteFont.cs",
               "RelativeDocumentMoniker": "Stroke\\StrokeEffectSpriteFont.cs",
@@ -410,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "StrokeTypeEnum.cs",
               "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Stroke\\StrokeTypeEnum.cs",
               "RelativeDocumentMoniker": "Stroke\\StrokeTypeEnum.cs",
@@ -422,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "XnbContentManager.cs",
               "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\Stroke\\XnbContentManager.cs",
               "RelativeDocumentMoniker": "Stroke\\XnbContentManager.cs",
@@ -431,18 +434,6 @@
               "ViewState": "AQIAABQAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-20T09:50:15.228Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AStarPathfinding.cs",
-              "DocumentMoniker": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\AStarPathfinding.cs",
-              "RelativeDocumentMoniker": "AStarPathfinding.cs",
-              "ToolTip": "C:\\Users\\orest\\Downloads\\pojects\\IsometricRTS\\AStarPathfinding.cs",
-              "RelativeToolTip": "AStarPathfinding.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T21:10:30.602Z"
             },
             {
               "$type": "Document",

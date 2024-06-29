@@ -51,7 +51,7 @@ namespace IsometricRTS
             Object door3 = new Object(new Vector2(15, 20), true, 23);
 
             door.name = "tree";
-            door1.name = "small log";
+            door1.name = "small log adkasdisaiodasijdhaidjaiosjdpqijdiasojdoijdoaididouahdouahduoahuojhduoadhavbhkg";
             door2.name = "big log";
             door3.name = "wisp tree";
 

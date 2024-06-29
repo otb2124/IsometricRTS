@@ -15,6 +15,7 @@ namespace IsometricRTS
 
 
         public List<UIElement> components;
+
         public UIComposite() { components = new List<UIElement>(); }
 
         public void Draw()
