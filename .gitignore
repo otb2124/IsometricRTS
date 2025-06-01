@@ -5,6 +5,8 @@
 *.vcxproj.user
 *.sln.docstates
 
+.Content/bin/
+
 # Build directories and binaries
 bin/
 obj/
