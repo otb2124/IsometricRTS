@@ -34,29 +34,29 @@
     <None Remove="Content\fonts\Chiller_9_Regular.xnb" />
     <None Remove="Content\fonts\Consolas10.xnb" />
     <None Remove="Content\fonts\Consolas12.xnb" />
-    <None Remove="Content\objects\object0.png" />
-    <None Remove="Content\objects\object1.png" />
-    <None Remove="Content\objects\object2.png" />
-    <None Remove="Content\objects\object3.png" />
+    <None Remove="res\objects\object0.png" />
+    <None Remove="res\objects\object1.png" />
+    <None Remove="res\objects\object2.png" />
+    <None Remove="res\objects\object3.png" />
     <None Remove="Content\OpenGL\StrokeEffect.xnb" />
-    <None Remove="Content\player\player0.png" />
-    <None Remove="Content\tiles\empty_tile.png" />
-    <None Remove="Content\tiles\tile0.png" />
-    <None Remove="Content\tiles\tile1.png" />
-    <None Remove="Content\tiles\tile2.png" />
-    <None Remove="Content\tiles\tile3.png" />
-    <None Remove="Content\tiles\tile4.png" />
-    <None Remove="Content\tiles\tile5.png" />
-    <None Remove="Content\tiles\tile6.png" />
-    <None Remove="Content\tiles\tile7.png" />
-    <None Remove="Content\tiles\tile8.png" />
-    <None Remove="Content\tiles\tile9.png" />
-    <None Remove="Content\ui\uielement0_1.png" />
-    <None Remove="Content\ui\uielement1.png" />
-    <None Remove="Content\ui\uielement2.png" />
-    <None Remove="Content\ui\uielement2_1.png" />
-    <None Remove="Content\ui\uielement2_2.png" />
-    <None Remove="Content\ui\uielement2_3.png" />
+    <None Remove="res\player\player0.png" />
+    <None Remove="res\tiles\empty_tile.png" />
+    <None Remove="res\tiles\tile0.png" />
+    <None Remove="res\tiles\tile1.png" />
+    <None Remove="res\tiles\tile2.png" />
+    <None Remove="res\tiles\tile3.png" />
+    <None Remove="res\tiles\tile4.png" />
+    <None Remove="res\tiles\tile5.png" />
+    <None Remove="res\tiles\tile6.png" />
+    <None Remove="res\tiles\tile7.png" />
+    <None Remove="res\tiles\tile8.png" />
+    <None Remove="res\tiles\tile9.png" />
+    <None Remove="res\ui\uielement0_1.png" />
+    <None Remove="res\ui\uielement1.png" />
+    <None Remove="res\ui\uielement2.png" />
+    <None Remove="res\ui\uielement2_1.png" />
+    <None Remove="res\ui\uielement2_2.png" />
+    <None Remove="res\ui\uielement2_3.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\fonts\Chiller_10_Regular.xnb">
@@ -116,73 +116,73 @@
     <Content Include="Content\fonts\Chiller_9_Regular.xnb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\objects\object0.png">
+    <Content Include="res\objects\object0.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\objects\object1.png">
+    <Content Include="res\objects\object1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\objects\object2.png">
+    <Content Include="res\objects\object2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\objects\object3.png">
+    <Content Include="res\objects\object3.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\player\player0.png">
+    <Content Include="res\player\player0.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\tiles\tile5.png">
+    <Content Include="res\tiles\tile5.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\tiles\empty_tile.png">
+    <Content Include="res\tiles\empty_tile.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\tiles\tile0.png">
+    <Content Include="res\tiles\tile0.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\tiles\tile1.png">
+    <Content Include="res\tiles\tile1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\tiles\tile2.png">
+    <Content Include="res\tiles\tile2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\tiles\tile3.png">
+    <Content Include="res\tiles\tile3.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\tiles\tile4.png">
+    <Content Include="res\tiles\tile4.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\tiles\tile6.png">
+    <Content Include="res\tiles\tile6.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\tiles\tile7.png">
+    <Content Include="res\tiles\tile7.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\tiles\tile8.png">
+    <Content Include="res\tiles\tile8.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\tiles\tile9.png">
+    <Content Include="res\tiles\tile9.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\ui\uielement0.png">
+    <Content Include="res\ui\uielement0.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\ui\uielement0_1.png">
+    <Content Include="res\ui\uielement0_1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\ui\uielement1.png">
+    <Content Include="res\ui\uielement1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\ui\uielement2.png">
+    <Content Include="res\ui\uielement2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\ui\uielement2_1.png">
+    <Content Include="res\ui\uielement2_1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\ui\uielement2_2.png">
+    <Content Include="res\ui\uielement2_2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\ui\uielement2_3.png">
+    <Content Include="res\ui\uielement2_3.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
